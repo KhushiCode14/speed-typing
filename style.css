@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Container Styling */
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Input Field */
+.text-display input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    height: auto;
+    transition: border-color 0.3s;
+}
+
+.text-display input:focus {
+    border-color: #007bff;
+}
+
+/* Textarea Styling */
+#outputText {
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 15px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#clearButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+#resetButton {
+    background-color: #ffc107;
+    color: black;
+}
+
+#copyButton {
+    background-color: #28a745;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Statistics Text */
+p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333;
+    font-weight: bold;
+}

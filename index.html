@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Master</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-display">
+        <p id="textDisplay"></p>
+        <!-- Changed input to p tag -->
+      </div>
+      <div>
+        <textarea id="outputText" placeholder="Type here..."></textarea>
+      </div>
+      <div>
+        <button id="clearButton">Clear</button>
+        <button id="resetButton">Reset</button>
+        <button id="copyButton">Copy</button>
+        <p id="speedText">Speed: 0 words/minute</p>
+        <p id="errorText">Errors: 0</p>
+        <p id="accuracyText">Accuracy: 0%</p>
+        <p id="totalWordsText">Total words: 0</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
